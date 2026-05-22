@@ -1,0 +1,3 @@
+# baseline already uses python-sc2 and torch.
+# Install only if your env does not already have them:
+# pip install burnysc2 torch

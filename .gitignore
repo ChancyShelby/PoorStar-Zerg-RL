@@ -1,0 +1,57 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Logs / outputs
+logs/
+*.log
+runs/
+runs_v*/
+outputs/
+OutPut/
+results/
+tmp/
+temp/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# StarCraft II replay / private data
+*.SC2Replay
+replays/
+SC2ReplayDataset/
+events/
+opening_evidence/
+operation_timeline/
+
+# Secrets
+.env
+.env.*
+api_key*
+secret*
+secrets.*
+config.local.*
+*_local.py
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+'@ | Set-Content ".gitignore" -Encoding UTF8
